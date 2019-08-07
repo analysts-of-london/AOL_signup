@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+	background: 
+}
+
+
+h1{
+	font-size: 35px;
+	color: #43425D;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+
+#container {
+	width:100%;
+	height: 100%;
+}
+
+
+.inner-container-left{
+	width: 50%;
+	height: 100%;
+	background-image:linear-gradient(to right, #141E30, #243B55);
+	float: left;
+}
+
+
+.inner-container-right{
+	width:50%;
+	height: 100%;
+	float:left;
+}
+
+.container-right-logo{
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+
+.container-right-message{
+	position: relative;
+	top:180px;
+	text-align: center;
+	color: #4D4F5C;
+	opacity: .5;
+}
+
+
+.container-right-username{
+	text-align: center;
+}
+
+.username-input{
+	position: relative;
+	top:230px;
+	width: 300px;
+	padding:10px 20px;
+	border: none;
+	border-bottom: 2px solid #E5E5E5;
+}
+
+
+.container-right-pword{
+	text-align: center;
+}
+
+.pword-input{
+	position: relative;
+	top:280px;
+	width: 300px;
+	padding:10px 20px;
+	border: none;
+	border-bottom: 2px solid #E5E5E5;
+}
+
+
+.container-right-remember{
+	width: 60%;
+	position: relative;
+	top:320px;
+	margin: 0 auto;
+	border: none;
+	text-align: center;
+}
+
+.remember-input{
+	position: relative;
+	width: 10px;
+	height: 10px;
+	left:13%;
+	float: left;
+	margin-right:10px;
+	border-radius: 4px;
+	margin-top: -2px;
+}
+
+
+.remember-txt{
+	width: 200px;
+	top:400px;
+	left:20px;
+	border: none;
+	color: #43425D;
+	font-size: 15px;
+	float: left;
+}
+
+.forgot-txt{
+	top:380px;
+	left:350px;
+	border: none;
+	color: #43425D;
+	font-size: 15px;
+}
+
+
+::placeholder{
+	color:#43425D;
+	font-size: 12px;
+}
+
+:-ms-input-placeholder{
+	color:#43425D;
+	font-size: 12px;
+}
+
+
+::-ms-input-placeholder{
+	color:#43425D;
+	font-size: 12px;
+}
+
+
+.container-right-btn{
+	position: relative;
+	top: 370px;
+	width: 50%;
+	margin:0 auto;
+}
+
+
+.login-btn{
+	position: relative;
+	padding:15px 55px;
+	background:#43425D;
+	color: #ffffff;
+	border-radius: 5px;
+
+}
+
+
+.signup-btn{
+	position: relative;
+	padding:15px 55px;
+	color: #43425D;
+	border-radius: 5px;
+	left: 45px;
+	border:1px solid #43425D;
+}
+
+
+
+
+
+
+
+
+
+
+

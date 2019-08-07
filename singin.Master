@@ -1,0 +1,25 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" runat="server" CodeBehind="singin.master.vb" Inherits="AOL_signup.singin" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+    <!-- Coded by BSHEWAN - Analysts of London -->
+    <!-- Design & CSS by YRAI - Analysts of London -->
+        <meta charset="utf-8">
+        <title>sign in</title>
+        <!-- Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	    <!-- CSS Sheets -->
+        <link rel="stylesheet" href="~/css/styles.css"/>
+            <asp:ContentPlaceHolder 
+                ID="header" runat="server">
+            </asp:ContentPlaceHolder>
+    </head>
+
+    <body>
+        <asp:ContentPlaceHolder 
+            ID="bodyForm" runat="server">
+        </asp:ContentPlaceHolder>
+    </body>
+</html>
